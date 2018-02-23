@@ -13,7 +13,7 @@ module Plugins::CamaleonSitemapCustomizer::MainHelper
   end
 
   def camaleon_sitemap_customizer_on_plugin_options(args)
-    args[:links] << link_to('Settings', admin_plugins_camaleon_sitemap_customizer_settings_path)
+    args[:links] << link_to(I18n.t('camaleon_sitemap.admin.main_helper.settings'), admin_plugins_camaleon_sitemap_customizer_settings_path)
   end
 
   def customize_sitemap(r)

@@ -1,6 +1,8 @@
 # Sitemap Customizer
 Camaleon CMS automatically generates sitemaps for all content of your site. This plugin allows you to select content to omit from the sitemap.
 
+**This fork includes I18n support.**
+
 ## Installation
 Add this line to your application's Gemfile:
 

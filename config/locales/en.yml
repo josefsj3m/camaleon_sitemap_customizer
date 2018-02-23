@@ -1,0 +1,14 @@
+en:
+  camaleon_sitemap:
+    admin:
+      alert: 'Camaleon CMS automatically generates a sitemap. Select the content types you wish to <b>exclude</b> from this sitemap.'
+      controller:
+        settings_saved_successfully: 'Settings Saved Successfully'
+      content_types_to_exclude_completely: 'Content Types to exclude completely'
+      content_types_to_exclude: 'Content Types to exclude (list pages only)'
+      categories_to_exclude: 'Categories to exclude (list pages only)'
+      exclude_redundant_home_page: 'Exclude redundant home page url? (ex. – remove www.mysite.com/home if this renders the same post as www.mysite.com)'
+      exclude_tags: 'Exclude tags?'
+      main_helper:
+        settings: 'Settings'
+      panel_heading: 'Sitemap Settings'

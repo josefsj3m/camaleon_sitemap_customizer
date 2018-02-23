@@ -18,6 +18,6 @@ class Plugins::CamaleonSitemapCustomizer::AdminController < CamaleonCms::Apps::P
     @plugin.set_options(params[:options]) # save option values
     @plugin.set_metas(params[:metas]) if params[:metas].present? # save meta values
     @plugin.set_field_values(params[:field_options]) if params[:field_options].present? # save custom field values
-    redirect_to url_for(action: :settings), notice: 'Settings Saved Successfully'
+    redirect_to url_for(action: :settings), notice: I18n.t('camaleon_sitemap.admin.controller.settings_saved_successfully')
   end
 end
