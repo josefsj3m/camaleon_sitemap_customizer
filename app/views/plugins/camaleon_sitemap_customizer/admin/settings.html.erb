@@ -45,7 +45,7 @@
             </div>
             <%= render partial: "camaleon_cms/admin/settings/custom_fields/render", locals: {record: @plugin, field_groups: @plugin.get_field_groups} %>
             <div class="form-group text-right">
-                <%= submit_tag 'Save Settings', class: 'btn btn-primary' %>
+                <%= submit_tag t('camaleon_sitemap.admin.submit'), class: 'btn btn-primary' %>
             </div>
         <% end %>
     </div>

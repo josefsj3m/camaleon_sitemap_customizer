@@ -5,10 +5,11 @@ pt-BR:
       controller:
         settings_saved_successfully: 'Configurações salvas.'
       content_types_to_exclude_completely: 'Tipos de conteúdo para serem excluídos completamente'
-      content_types_to_exclude: 'Tipos de conteúdo a serem excluídos (lista de páginas somente)'
-      categories_to_exclude: 'Categorias a serem excluídas (lista de páginas somente)'
-      exclude_redundant_home_page: 'Excluir url de home page redudante? (ex. – remove www.mysite.com/home se ela mstra a mesma página que www.mysite.com)'
+      content_types_to_exclude: 'Tipos de conteúdo para serem excluídos (lista de páginas somente)'
+      categories_to_exclude: 'Categorias para serem excluídas (lista de páginas somente)'
+      exclude_redundant_home_page: 'Excluir url de home page redudante? (ex. – remove www.mysite.com/home se ela mostrar a mesma página que www.mysite.com)'
       exclude_tags: 'Excluir tags?'
       main_helper:
         settings: 'Configurações'
-      panel_heading: 'Confgurações do Mapa do Site'
+      panel_heading: 'Configurações do Mapa do Site'
+      submit: 'Salvar'

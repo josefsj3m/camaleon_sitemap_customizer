@@ -12,3 +12,4 @@ en:
       main_helper:
         settings: 'Settings'
       panel_heading: 'Sitemap Settings'
+      submit: 'Save'
